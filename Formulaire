@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <form>
+        <label>filiere</label>
+        <select >
+            <option>developemement digital systeme</option>
+            <option>gestion</option>
+            <option>info</option>
+            <option>c</option>
+
+        </select>
+
+        <label>modules</label>
+        <select>
+            <option>Module du metier formation</option>
+            <option>M2</option>
+            <option>M3</option>
+            <option>M4</option>
+
+        </select>
+<br><br>
+        <label>NOUVELLE SEANCE</label>
+        <hr/>
+
+        <table>
+            <tr>
+                <td>ELEMENTS DE LA COMPETENCE <br>300 balise </td>
+                
+                <td><textarea cols="30" rows="5"></textarea></td> 
+                <td> TYPE DE COURS FRERO </td>
+
+              <td>   <select><option>presenetiel</option><option>distance</option><option>hybride</option></select></td> 
+            </tr>
+
+ 
+        </table>
+
+        <hr/>
+
+        <table>
+            <tr>
+                <td>date de la seance </td>
+                
+              <td>   <select  style="width: 100%;"><option>mardi</option><option>mercredi</option><option>samedi</option></select></td>
+                 
+ 
+<td>eff de absence </td>
+                
+                 
+
+              <td>   <select style="width: 100%;"><option>0 STAGAIRE</option><option>1 STAGIAIRE</option><option>2 STAGIAIRE</option></select></td>
+                 
+            </tr>
+
+            <tr><td colspan="4"><hr/></td></tr>
+
+            <tr>
+                <td>HEURE DE DEMAARAFE </td>
+                
+                 
+
+              <td>   <select  style="width: 100%;"><option>8H</option><option>9H</option><option>6H</option></select></td>
+                 
+ 
+<td>HEURE DE FIN  </td>
+                
+                 
+
+              <td>   <select  style="width: 100%;"><option>9H</option><option>7H</option><option>2H</option></select></td>
+                 
+            </tr>
+
+ 
+        </table>
+
+        <hr/>
+
+        <table>
+            <tr>
+                <td>ELEMENTS DE LA COMENTAAIRE</td>
+                <td><textarea cols="30" rows="5"></textarea></td>
+                
+                <td>LISTE ABSENCE</td>
+                <td><textarea cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr><td colspan="4"><hr/></td></tr>
+<tr>
+    <td>TYPE DE SEANCE</td>
+    <td><input type="radio" name="listo">COURS
+     <input type="radio" name="listo">CC
+    <input type="radio" name="listo">EFM
+    <input type="radio" name="listo">EFF</td>
+ </tr> 
+<tr>  
+    <td><button type="text">VALIDER LA SEANCE </button></td>   </tr>  
+     </form>
+    
+</body>
+</html>
